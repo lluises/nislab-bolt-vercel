@@ -10,7 +10,7 @@ const links = [
 <template>
   <v-app-bar color="primary" density="compact">
     <v-container class="d-flex align-center">
-      <h6 class="text-h6" style="font-weight: bold">エスカーニョ マルケス ユイス</h6>
+      <h4 class="text-h4" style="font-weight: bold">エスカーニョ マルケス ユイス</h4>
       <v-spacer></v-spacer>
       <div class="d-none d-sm-flex">
         <v-btn v-for="link in links" :key="link.text" :href="link.href" variant="text">
