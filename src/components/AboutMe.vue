@@ -30,10 +30,8 @@ const experience = [
           <h3 class="text-h5 mb-4">Experience</h3>
           <v-timeline>
             <v-timeline-item v-for="job in experience" :key="job.title">
-              <template v-slot:title>
-                <h4 class="text-h6">{{ job.title }}</h4>
-                <p class="text-subtitle-1">{{ job.position }} at {{ job.company }}</p>
-              </template>
+              <h4 class="text-h6">{{ job.title }}</h4>
+              <p class="text-subtitle-1">{{ job.position }} at {{ job.company }}</p>
               <p>{{ job.description }}</p>
             </v-timeline-item>
           </v-timeline>
