@@ -1,0 +1,12 @@
+:root {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+  scroll-margin-top: 64px;
+}
